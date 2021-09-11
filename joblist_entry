@@ -1,0 +1,1 @@
+<tr><td style="padding-left:20px;">$occupation &ndash; <a href="member.php?action=profile&uid={$userid}">$username</a><br/>
