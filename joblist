@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>{$settings['bbname']} - Job List</title>
+{$headerinclude}
+</head>
+<body>
+{$header}
+<center><table border="0" cellspacing="2px" cellpadding="{$theme['tablespace']}">
+<h3>Job List</h3><br>
+
+<table width="700px"><tr>
+
+<table width="300px">
+<tr><td align="center"><div style="width:300px; padding: 10px; text-align: center;"><h2>Location 1</h2></div></td></tr>
+<tr>
+$loc1
+</td></tr>
+</table>
+
+<td width="300px" valign="top">
+<table width="300px">
+<tr><td align="center"><div style="width:300px; padding: 10px; text-align: center;"><h2>Location 2</h2></div></td></tr>
+<tr><td>
+$loc2
+</td></tr>
+</table></td></tr>
+
+<table width="300px">
+<tr><td align="center"><div style="width:300px; padding: 10px; text-align: center;"><h2>Location 3</h2></div></td></tr>
+<tr>
+$loc3
+</td></tr>
+</table></center>
+
+{$footer}
+</body>
+</html>
